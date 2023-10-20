@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="601.0" styleClass="background" stylesheets="@design.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.termproject.LoginController">
+   <children>
+      <TextField fx:id="cmpname" layoutX="339.0" layoutY="164.0" prefHeight="36.0" prefWidth="248.0" promptText="Enter your production company name" styleClass="Text-field" stylesheets="@design.css" />
+      <Label layoutX="215.0" layoutY="7.0" prefHeight="36.0" prefWidth="135.0" text="Log In Window" textFill="#0d26df">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="486.0" layoutY="268.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="30.0" prefWidth="74.0" text="Log In">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameLabel" layoutX="385.0" layoutY="126.0" prefHeight="30.0" prefWidth="202.0" />
+      <PasswordField fx:id="password" layoutX="339.0" layoutY="214.0" prefHeight="36.0" prefWidth="248.0" promptText="Enter password" styleClass="Text-field" stylesheets="@design.css" />
+      <Button layoutX="369.0" layoutY="268.0" mnemonicParsing="false" onAction="#onResetClick" prefHeight="30.0" prefWidth="81.0" stylesheets="@design.css" text="Reset">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

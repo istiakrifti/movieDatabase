@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="454.0" prefWidth="850.0" stylesheets="@design.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.termproject.TotalprofitController">
+   <children>
+      <TableView fx:id="table" layoutY="-1.0" prefHeight="339.0" prefWidth="850.0">
+         <columns>
+            <TableColumn fx:id="name" prefWidth="396.9999877810478" text="Name" />
+            <TableColumn fx:id="profit" minWidth="0.0" prefWidth="453.4000244140625" text="Profit" />
+         </columns>
+      </TableView>
+      <Button layoutX="6.0" layoutY="420.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="26.0" prefWidth="78.0" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="152.0" layoutY="345.0" prefHeight="26.0" prefWidth="256.0" text="Total Profit                                           :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalprofit" layoutX="464.0" layoutY="343.0" prefHeight="33.0" prefWidth="286.0" stylesheets="@design.css" />
+   </children>
+   <styleClass>
+      <String fx:value="table-view" />
+      <String fx:value="table-row-cell" />
+   </styleClass>
+</AnchorPane>

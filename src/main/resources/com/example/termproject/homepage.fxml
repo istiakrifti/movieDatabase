@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="464.0" prefWidth="618.0" styleClass="background1" stylesheets="@design.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.termproject.HomepageController">
+    <children>
+        <Button layoutX="210.0" layoutY="116.0" mnemonicParsing="false" onAction="#onRecentMoviesClick" prefHeight="26.0" prefWidth="198.0" text="Recent Movies">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="211.0" layoutY="157.0" mnemonicParsing="false" onAction="#OnMaxRevenueClick" prefHeight="26.0" prefWidth="198.0" text="Movies with maximum revenue">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="211.0" layoutY="196.0" mnemonicParsing="false" onAction="#onProfitClick" prefHeight="26.0" prefWidth="198.0" text="Total Profit">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="210.0" layoutY="238.0" mnemonicParsing="false" onAction="#onAddMovieClick" prefHeight="26.0" prefWidth="198.0" text="Add Movie">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="211.0" layoutY="279.0" mnemonicParsing="false" onAction="#OnTransferMovieClick" prefHeight="26.0" prefWidth="198.0" text="Transfer Movie">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button layoutX="211.0" layoutY="358.0" mnemonicParsing="false" onAction="#onLogOutClick" prefHeight="26.0" prefWidth="198.0" text="Log Out">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="250.0" layoutY="14.0" prefHeight="35.0" prefWidth="128.0" text="Main Menu" textFill="#1912deee">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button layoutX="210.0" layoutY="76.0" mnemonicParsing="false" onAction="#onAllMoviesClick" prefHeight="26.0" prefWidth="198.0" text="All Movies">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="319.0" mnemonicParsing="false" onAction="#onChangePasswordClick" prefHeight="26.0" prefWidth="198.0" text="Change Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
